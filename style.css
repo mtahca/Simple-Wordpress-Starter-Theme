@@ -25,10 +25,18 @@ footer {
 a {
   color: #222;
 }
+.logo {
+  width: 20%;
+  float: left;
+  margin-right: 50px;
+}
+nav {
+  width: 80%;
+}
 .navigation {
   padding-left: 0;
   list-style: none;
-  padding-top: 60px;
+  padding-top: 20px;
 }
 .navigation li {
   display: inline;

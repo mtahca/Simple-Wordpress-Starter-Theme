@@ -14,13 +14,16 @@
 <body <?php body_class(); ?>>
     
 <header class="top">
-<div class="container">
-<a href="/"><img src="<?php echo wp_get_attachment_url(get_theme_mod('mf-logo')) ?>" alt="<?php bloginfo('name'); ?>"></a>
+<div class="container pt-2">
+<div class="logo"><a href="/"><img src="<?php echo wp_get_attachment_url(get_theme_mod('mf-logo')) ?>" alt="<?php bloginfo('name'); ?>"></a></div>
+<nav>
 <?php wp_nav_menu (
 array(
     'theme_location' => 'top-menu',
     'menu_class' => 'navigation'
 )); ?>
+</nav>
+
 </div>
 </header>
 
