@@ -15,7 +15,7 @@
     
 <header class="top">
 <div class="container">
-<a href="/"><img src="<?php echo wp_get_attachment_url(get_theme_mod('mf-logo')) ?>"></a>
+<a href="/"><img src="<?php echo wp_get_attachment_url(get_theme_mod('mf-logo')) ?>" alt="<?php bloginfo('name'); ?>"></a>
 <?php wp_nav_menu (
 array(
     'theme_location' => 'top-menu',
